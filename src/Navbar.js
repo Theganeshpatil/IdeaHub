@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
 
@@ -20,9 +21,9 @@ export default function Navbar() {
         <div className='nav'>
             <h2>Write your Own blog</h2>
             <div className='Navbar-links'>
-                <a href='/'>Home</a>
-                <a href='/create'>Crete a blog</a>
-                <a href='/contact'>Contact us</a>
+                <Link to='/'>Home</Link>
+                <Link to='/create'>Crete a blog</Link>
+                <Link to='/contact'>Contact us</Link>
             </div>
             <button id='lbtn' onClick={(e) => logingButton("Ganesh", e)}>Login
             </button> {/* e here gives represents event details */}
