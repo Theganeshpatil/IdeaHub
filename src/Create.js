@@ -19,11 +19,15 @@ const Create = () => {
             setPending(false)
             // history.go(-1)
             history.push('/')
+        }).catch(err => {
+            console.log('Request failed', err)
         })
     }
     return (
         <div className="create-section">
-            <h2>Add a new Blog </h2>
+            <h2 style={{
+                'textAlign': 'center'
+            }}>Add a new Blog </h2>
 
             <form className="create" onSubmit={(e) => handleClick(e)}>
                 <label htmlFor="title"> Title </label>

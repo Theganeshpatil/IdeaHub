@@ -6,7 +6,6 @@ export default function Navbar() {
     const [loginState, setLoginState] = useState(false);
 
     let logingButton = (e) => {
-        console.log(e)
         const btn = document.getElementById('lbtn');
         if (loginState === false) {
             setLoginState(true)
@@ -19,7 +18,7 @@ export default function Navbar() {
 
     return (
         <div className='nav'>
-            <h2>Write your Own blog</h2>
+            <h2>IdeaHub</h2>
             <div className='Navbar-links'>
                 <Link to='/'>Home</Link>
                 <Link to='/create'>Crete a blog</Link>

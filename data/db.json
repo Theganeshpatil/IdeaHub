@@ -1,28 +1,53 @@
 {
   "blogs": [
     {
-      "title": "My First Blog",
-      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-      "author": "mario",
-      "id": 1
+      "title": "10 Tips for Staying Productive While Working from Home",
+      "author": "Jane Smith",
+      "date": "2022-01-15",
+      "id": 1,
+      "body": "With more and more people working from home, it can be challenging to stay productive. Here are 10 tips to help you stay on track and get things done."
     },
     {
-      "title": "Opening Party!",
-      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-      "author": "yoshi",
-      "id": 2
+      "title": "How to Create a Budget that Works for You",
+      "author": "John Doe",
+      "date": "2022-02-01",
+      "id": 2,
+      "body": "Creating a budget can be overwhelming, but it doesn't have to be. In this post, we'll go over some simple steps to create a budget that works for your lifestyle and goals."
     },
     {
-      "title": "new blog",
-      "body": "sample blog delte it",
-      "author": "Lofi",
-      "id": 9
+      "title": "The Benefits of Meditation: Why You Should Start Today",
+      "author": "Sarah Johnson",
+      "date": "2022-02-15",
+      "id": 3,
+      "body": "Meditation has been shown to have numerous benefits for both physical and mental health. In this post, we'll explore some of the reasons why you should consider adding meditation to your daily routine."
     },
     {
-      "title": "asdf",
-      "body": "asdf",
-      "author": "Mario",
-      "id": 13
+      "title": "How to Travel on a Budget",
+      "author": "David Lee",
+      "date": "2022-03-01",
+      "id": 4,
+      "body": "Traveling can be expensive, but it doesn't have to break the bank. In this post, we'll go over some tips and tricks to help you travel on a budget and save money while still having a great time."
+    },
+    {
+      "title": "The Top 5 Health Benefits of Yoga",
+      "author": "Emily Chen",
+      "date": "2022-03-15",
+      "id": 5,
+      "body": "Yoga has become increasingly popular in recent years, and for good reason. In this post, we'll explore some of the top health benefits of practicing yoga, including improved flexibility, strength, and mental wellbeing."
+    },
+    {
+      "title": "How to Create a Morning Routine That Sets You Up for Success",
+      "author": "Mark Johnson",
+      "date": "2022-04-01",
+      "id": 6,
+      "body": "Starting your day off on the right foot can have a big impact on your productivity and overall wellbeing. In this post, we'll go over some tips and strategies to help you create a morning routine that sets you up for success."
+    },
+    {
+      "title": "Why You Should Consider Starting a Side Hustle",
+      "author": "Jessica Lee",
+      "date": "2022-04-15",
+      "id": 7,
+      "body": "Side hustles have become increasingly popular in recent years, and for good reason. In this post, we'll explore some of the benefits of starting a side hustle, including extra income, new skills, and greater flexibility."
     }
   ]
 }

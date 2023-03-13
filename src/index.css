@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+
 /* base styles */
 * {
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  background-color: #fff;
 }
 
 a {
@@ -12,7 +14,7 @@ a {
 }
 
 h2 {
-  color: blue;
+  color: #2C3E50;
 }
 
 .nav{
@@ -57,19 +59,42 @@ button{
   grid-template-columns: auto auto auto auto;
 }
 
+.all-blogs h1{
+  text-align: center;
+  margin: 10px;
+}
+.blog-list{
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
 .blog-preview{
   border: 1px solid black;
-  margin: 5px;
+  margin: 15px;
   padding: 5px;
-  border-radius: 5px;
+  min-height: 300px;
+  max-height: 300px;
+  /* border-radius: 5px; */
+  
+}
+.blog-preview h3{
+  color: #2C3E50;
+}
+
+.blog-preview p{
+  margin: 8px 0;
 }
 
 .blog-preview:hover{
-  background-color: rgba(56, 45, 92, 0.445);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+@keyframes pop{
+  50%  {transform: scale(1.1);}
 }
 .blog-preview h3{
   margin: 0;
-  color: darksalmon;
+  color: E74C3C;
 }
 
 /* create new blog form */
@@ -84,7 +109,7 @@ button{
 }
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 .create input, .create textarea, .create select {
@@ -96,10 +121,71 @@ button{
   display: block;
 }
 .create button {
-  background: #f1356d;
-  color: #fff;
-  border: 0;
+  background: #ffffff;
+  color: #000000;
   padding: 8px;
+  width: 80px;
   border-radius: 8px;
   cursor: pointer;
 }
+
+
+.blog-details{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.blog-details article{
+  margin: 10px;
+  padding: 10px;
+  text-align:left;
+}
+
+.blog-details article div{
+  margin: 10px 0;
+}
+
+.boldIt{
+  font-weight: bold;
+}
+
+
+/*======================
+    404 page
+=======================*/
+
+.not-found *{
+  background-color: white;
+}
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+  text-align: center;
+  height: 100vh;
+  
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+  .four_zero_four_bg h3{
+			 font-size:80px;
+			 }
+			 
+			 .link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;}
+	.contant_box_404{ margin-top:-50px;}
